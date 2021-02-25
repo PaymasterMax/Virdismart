@@ -1,1 +1,39 @@
-{% extends 'templates/base.html' %} {% load static %}
+{% extends 'base.html' %} {% load static %}
+{% block wrapper %}
+  <div class="home">
+    <!-- navbar -->
+      <div class="navbar">
+            <div class="logo">
+                <img src="{% static 'images/logos/virdis.svg' %}" alt="virdis">
+            </div>
+            <div class="our-impact">
+                <a href="#">Our impact</a>
+            </div>
+            <div class="discover">
+                <a href="#">Discover</a>
+            </div>
+            <div class="login">
+              <a href="#">Login</a>
+            </div>
+            <div class="contact">
+                <a href="#">Conact us</a>
+            </div>
+      </div>
+      <div class="preview">
+          <div class="side-note">
+              <h1>Turn your trash to cash with our smart bin</h1>
+              <p class="tip">Drop your recycleables in our smartbin to get points which you can redeem for cash or discounts on selected products</p>
+              <button type="button" name="button">View stats</button>
+          </div>
+      </div>
+      <div class="working">
+          <h1>How it works</h1>
+      </div>
+  </div>
+{% endblock %}
+<!-- resources links -->
+{% block css %}
+  <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+{% endblock %}
+{% block js %}
+{% endblock %}

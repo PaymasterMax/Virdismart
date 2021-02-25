@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0px;
+  margin: 0px;
+}
+.waiting-load {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: 2;
+  display: none;
+}
+.waiting-load img {
+  max-width: 100%;
+  max-height: 100%;
+
+}

@@ -6,10 +6,21 @@
     <meta name="lang" content="en">
     <meta charset="utf-8">
     <title>Virdis</title>
-    <link rel="icon" href="static/images/">
+    <link rel="icon" href="static/images/logos/icon.png">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <div class="waiting-load">
+        <img src="{% static 'images/logos/virdis.png' %}" alt="">
+    </div>
+    <script src="{% static 'js/home.js' %}" charset="utf-8"></script>
   </head>
   <body>
-
+    <div class="wrap-body">
+        {% block wrapper %}
+        {% endblock %}
+    </div>
   </body>
-  <link rel="stylesheet" href="/static/css/base.css">
+  {% block css %}
+  {% endblock %}
+  {% block js %}
+  {% endblock %}
 </html>
