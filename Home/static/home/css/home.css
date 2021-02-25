@@ -59,7 +59,7 @@
   }
   .working img {
     max-width: 60%;
-    height: 50%;
+    /* height: 50%; */
     margin: auto;
     display: block;
   }
