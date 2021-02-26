@@ -1,6 +1,6 @@
 # Virdismart
 Waste recycling company website.
-The smart bin, an invention by virdismart is a bin built on using adruino technologies and raspberry pi, with software aid by python alongsize react and mongo technologies.
+The smart bin, an invention by virdismart is a bin built on using adruino technologies and raspberry pi, with software aid from python alongside react and mongo technologies.
 
 ## Functioning of the bin
 The bin allows only authorized users to use the bin.
