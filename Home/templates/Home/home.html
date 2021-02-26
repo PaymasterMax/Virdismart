@@ -1,24 +1,6 @@
 {% extends 'base.html' %} {% load static %}
 {% block wrapper %}
   <div class="home">
-    <!-- navbar -->
-      <div class="navbar">
-            <div class="logo">
-                <img src="{% static 'images/logos/virdis.svg' %}" alt="virdis">
-            </div>
-            <div class="our-impact">
-                <a href="#">Our impact</a>
-            </div>
-            <div class="discover">
-                <a href="#">Discover</a>
-            </div>
-            <div class="login">
-              <a href="#">Login</a>
-            </div>
-            <div class="contact">
-                <a href="#">Conact us</a>
-            </div>
-      </div>
       <div class="preview">
           <div class="side-note">
               <h1>Turn your trash to cash with our smart bin</h1>
@@ -29,13 +11,13 @@
       <div class="working">
           <h1>How it works</h1>
             <div class="">
-                <img src="{% static 'images/procedure.png' %}" alt="how it works">
+                <img src="{% static 'images/procedure.png' %}" loading="lazy" alt="how it works">
             </div>
       </div>
       <div class="description">
         <div class="why-smart">
             <div class="smartbin">
-                <img src="{% static 'images/smart.jpg' %}" alt="smart bin">
+                <img src="{% static 'images/smart.jpg' %}" loading="lazy" alt="smart bin">
             </div>
             <div class="bin-note">
               <h2>Why Smart Bin?</h2>
@@ -53,7 +35,7 @@
         </div>
         <div class="team">
             <div class="team-photo">
-                <img src="{% static 'images/team.jpg' %}" alt="">
+                <img src="{% static 'images/team.jpg' %}" loading="lazy" alt="team">
             </div>
             <div class="sidenote">
                 <h2>Know the team</h2>
@@ -62,25 +44,25 @@
       </div>
       <div class="sponsors">
           <div class="">
-            <div class="">
-
+            <div class="ford">
+                <img src="{% static 'images/sponsors/ford.png' %}" loading="lazy" alt="ford">
             </div>
-            <div class="">
-
+            <div class="enactus">
+                <img src="{% static 'images/sponsors/enactus.png' %}" loading="lazy" alt="enactus">
             </div>
-            <div class="">
-
+            <div class="clinton">
+              <img src="{% static 'images/sponsors/clinton.png' %}" loading="lazy" alt="clinton">
             </div>
           </div>
           <div class="">
-            <div class="">
-
+            <div class="eden">
+              <img src="{% static 'images/sponsors/eden.png' %}" loading="lazy" alt="eden">
             </div>
-            <div class="">
-
+            <div class="mmu">
+              <img src="{% static 'images/sponsors/mmu.png' %}" loading="lazy" alt="mmu">
             </div>
-            <div class="">
-
+            <div class="cress">
+                <img src="{% static 'images/sponsors/cress.png' %}" loading="lazy" alt="cress">
             </div>
           </div>
       </div>

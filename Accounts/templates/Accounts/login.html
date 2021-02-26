@@ -1,0 +1,27 @@
+{% extends 'base.html' %}{% load static %}
+{% block wrapper %}
+<div class="form-wrapper">
+    <h3 class="web-name">Virdismart | Login</h3>
+    <form class="login" action="" method="post" autocomplete="off">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{csrf_token}}" class="token">
+      <div class="input-field">
+        <input type="text" name="username" class="username" placeholder="username" autocomplete="false">
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" class="password" placeholder="password" autocomplete="false">
+      </div>
+      <div class="input-field submit-btn">
+        <button type="submit" name="submit" class="submit btn">login</button>
+      </div>
+    </form>
+  </div>
+  <div class="loaders">
+      <p class="loader-1"></p>
+  </div>
+{% endblock %}
+{% block css %}
+  <link rel="stylesheet" href="{% static 'Accounts/css/login.css' %}">
+{% endblock %}
+{% block js %}
+  <script src="{% static 'Accounts/js/login.js' %}" charset="utf-8"></script>
+{% endblock %}

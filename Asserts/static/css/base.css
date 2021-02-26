@@ -4,18 +4,232 @@
   padding: 0px;
   margin: 0px;
 }
-.waiting-load {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  z-index: 2;
+.loading {
+    justify-content: center;
+    background-color: grey;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+.loading img {
+  width: 200px;
+  height: 200px;
+}
+.trigger-side {
+  position: fixed;
+  top: 20px;
+  left: 10px;
   display: none;
 }
-.waiting-load img {
-  max-width: 100%;
-  max-height: 100%;
-
+.trigger-side span {
+  background-color: #000;
+  margin: 10px auto;
+  min-width: 48px;
+  min-height: 5px;
+  display: block;
+}
+.footer {
+  min-height: 70vh;
+  width: 100%;
+  background-color: grey;
+}
+.footer >div::selection {
+  background-color: inherit;
+}
+.footer hr {
+  background-color: white;
+}
+.footer h4 {
+  text-decoration: underline;
+}
+.footer a {
+  color: #fff;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: none;
+  color:
+}
+.main-footer  >div,h4{
+  display: block;
+  width:200px;
+  margin: 5px auto;
+}
+.footer .copy-write {
+  text-align: center;
+  margin: auto;
+}
+.go-top::selection {
+  background-color: inherit;
+}
+.go-top {
+  background-color: #168d75;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  font-size: 40px;
+  bottom: 30px;
+  display: none;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+}
+.menu-side {
+  animation: slide .3s 1 ease-out;
+  background-color: #808080;
+  min-height: 100vh;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+.close-bar {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 60px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.menu-side img {
+  max-width: 300px;
+  max-height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+.url-links {
+    width: auto;
+    margin: auto;
+    margin: 10px;
+    font-size: 20px;
+    margin: 40px 10px;
+    margin-left: 30%;
+}
+.menu-side a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #fff;
+}
+.menu-side a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.menu-side a:active{
+  text-decoration: none;
+  color: #fff;
+}
+.menu-side a:focus{
+  text-decoration: none;
+  color: #fff;
+}
+.final img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.final .rights {
+  text-align: center;
+}
+/* small devices */
+@media only screen and (max-width:1220px) {
+  .trigger-side {
+    display: block;
+  }
+  .final .logo {
+    display: block;
+  }
+  .final img {
+      max-width: 300px;
+      max-height: 300px;
+      display: block;
+    }
+    .dev-navbar {
+      display: none;
+    }
+    .navbar2 {
+      background-color: #ff884a;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      height: 100px;
+      color: #ffffff;
+      display: flex;
+    }
+}
+@media only screen and (min-width:700px) {
+  .top-footer {
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    display: flex;
+  }
+  .top-footer > .main-footer {
+    margin: 10px 5px ;
+    min-height: 100%;
+    margin-top: 80px;
+    flex: 1;
+  }
+  .mid-main-footer {
+    margin: 0px 10px;
+  }
+  .trigger-side {
+    display: none;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .dev-navbar {
+    background-color: #ff884a;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+  }
+  .navbar2 {
+    display: none;
+  }
+  .dev-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .dev-navbar > div {
+    flex: 1;
+  }
+  .dev-navbar img {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+  }
+  .final{
+      display: flex;
+      align-items: center;
+  }
+  .final .rights {
+    flex:3;
+    margin-left: 15%;
+  }
+  .final .logo {
+    flex: 1;
+  }
+}
+@keyframes slide {
+    0% {
+      opacity: .1;
+    }
+    100%{
+      opacity: 1
+    }
 }
