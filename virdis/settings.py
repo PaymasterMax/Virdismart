@@ -56,6 +56,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'virdis.wsgi.application'
+AUTH_USER_MODEL = "Accounts.Virdismart"
 
 DATABASES = {
     'default': {

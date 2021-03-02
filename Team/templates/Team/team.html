@@ -1,0 +1,53 @@
+{% extends 'base.html' %}{% load static %}
+{% block wrapper %}
+  <div class="profile-preview">
+
+  </div>
+  <div class="team-pile">
+        <div class="team1">
+          <div class="team eric">
+            <div class="team-img">
+                <img src="{% static 'Team/images/Duncan.png' %}" alt="Eric" title="Eric Muchiri">
+            </div>
+              <div class="team-info">
+                <label>Eric Muchiri</label>
+                <label>Developer Virdis</label>
+                <label class="social-links">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </label>
+              </div>
+          </div>
+          <div class="team eric">
+            <div class="team-img">
+                <img src="{% static 'Team/images/Duncan.png' %}" alt="Eric" title="Eric Muchiri">
+            </div>
+              <div class="team-info">
+                <label>Lilian Waita</label>
+                <label>PAC Virdis</label>
+                <label class="social-links">
+                  <a href="https://www.facebook.com/waprasupratyra.olilioh"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </label>
+              </div>
+          </div>
+          <div class="team eric">
+            <div class="team-img">
+              <img src="{% static 'Team/images/Duncan.png' %}" alt="Dan" title="Dan Kipchirchir">
+            </div>
+            <div class="team-info">
+              <label>Abby Chebet</label>
+              <hr>
+              <label title="Chief Financial Officer">CFO Virdis</label>
+              <label class="social-links">
+                <a href="https://www.facebook.com/chirpy.chebby" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/p/CLcnTSkgCVOzs3co8vIuaffiRqoxf8tTj8QJXs0/?igshid=13vqky008l4fd" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </label>
+            </div>
+          </div>
+          </div>
+        </div>
+{% endblock %}
+{% block css %}
+  <link rel="stylesheet" href="{% static 'Team/team.css' %}">
+{% endblock %}

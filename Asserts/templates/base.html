@@ -5,19 +5,14 @@
     <meta name="keywords" content="smart,bin,smartbin,recycle,waste,enactus mmu,enactus,disposal,points,earn,virdismart,virdis">
     <meta name="lang" content="en">
     <meta charset="utf-8">
-    <title>Virdis</title>
-    <link rel="icon" href="static/images/logos/icon.png">
+    <title>Virdismart Global</title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="icon" href="{% static 'images/logos/icon.png' %}">
     <div class="loading">
         <img src="{% static 'images/logos/virdis.png' %}" alt="logo">
     </div>
   </head>
   <body>
-    <div class="trigger-side">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
     <div class="menu-side">
       <p class="close-bar">&times;</p>
         <div class="">
@@ -25,48 +20,67 @@
                 <img src="{% static 'images/logos/virdis.png' %}" alt="virdis">
             </div>
             <div class="url-links">
-              <a href="/">Home &#8594;</a>
+              <a href="{% url 'home:home' %}">Home &#8594;</a>
             </div>
             <div class="url-links">
-                <a href="#">Our impact &#8594;</a>
+              <a href="https://medium.com/@blog_555" target="_blank">Blogs &#8594;</a>
             </div>
             <div class="url-links">
-                <a href="#">Discover &#8594;</a>
+                <a href="{% url 'Team:team' %}" class="bout-us">About us &#8594;</a>
             </div>
             <div class="url-links">
-                <a href="#">Contact us &#8594;</a>
+                <a href="/#footer">Contact us &#8594;</a>
             </div>
-            <div class="url-links">
+            {% if additional_info.logged_in %}
+                <div class="url-links">
+                  <a href="{% url 'Accounts:logout' %}">Logout &#8594;</a>
+                </div>
+              {% else %}
+              <div class="url-links">
                 <a href="{% url 'Accounts:account' %}">Login &#8594;</a>
-            </div>
+              </div>
+            {% endif %}
         </div>
     </div>
     <div class="wrap-body">
       <!-- navbar -->
-        <div class="dev-navbar">
+        <div class="dev-navbar dev-nav">
               <div class="logo">
-                  <img src="{% static 'images/logos/virdis.svg' %}" loading="lazy" alt="virdis">
+                  <img src="{% static 'images/logos/virdis.svg' %}" loading="lazy" alt="virdis" onclick="window.location.href='/'">
               </div>
               <div class="our-impact">
-                  <a href="#">Our impact</a>
-              </div>
-              <div class="discover">
-                  <a href="#">Discover</a>
+                  <a href="{% url 'home:home' %}">Home</a>
               </div>
               <div class="contact">
-                <a href="#">Contact us</a>
+                <a href="https://medium.com/@blog_555" target="_blank">Blogs</a>
               </div>
+              <div class="discover">
+                  <a href="{% url 'Team:team' %}">About us</a>
+              </div>
+              {% if additional_info.logged_in %}
               <div class="login">
-                <a href="{% url 'Accounts:account' %}">Login</a>
+                <a href="{% url 'Accounts:logout' %}">Logout</a>
               </div>
+                {% else %}
+                <div class="login">
+                  <a href="{% url 'Accounts:account' %}">Login</a>
+                </div>
+              {% endif %}
         </div>
-        <div class="navbar2">
-            <h2>Virdismart</h2>
+        <div class="navbar2 dev-nav">
+          <div class="trigger-side">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+            <div class="company">
+                <h2>Virdismart</h2>
+            </div>
         </div>
         {% block wrapper %}
         {% endblock %}
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
         <hr>
           <div class="top-footer">
             <div class="main-footer">
@@ -112,8 +126,8 @@
               </div>
             </div>
           </div>
+          <hr class="horizontal">
       <div class="final">
-        <hr>
         <div class="logo">
             <img src="{% static 'images/logos/virdis.png' %}" loading="lazy" alt="virdis">
         </div>
@@ -141,7 +155,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-  <script src="{% static 'js/base.js' %}" charset="utf-8"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   {% block css %}
   {% endblock %}

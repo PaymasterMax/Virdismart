@@ -2,10 +2,11 @@
 {% block wrapper %}
 <div class="form-wrapper">
     <h3 class="web-name">Virdismart | Login</h3>
-    <form class="login" action="" method="post" autocomplete="off">
+    <label class="errors"></label>
+    <form class="login" action="/accounts/" method="post" autocomplete="off">
       <input type="hidden" name="csrfmiddlewaretoken" value="{{csrf_token}}" class="token">
       <div class="input-field">
-        <input type="text" name="username" class="username" placeholder="username" autocomplete="false">
+        <input type="email" name="email" class="username" placeholder="email" autocomplete="false">
       </div>
       <div class="input-field">
         <input type="password" name="password" class="password" placeholder="password" autocomplete="false">

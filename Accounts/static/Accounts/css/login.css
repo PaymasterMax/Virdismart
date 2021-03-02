@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
 form {
   margin: 0px auto;
 }
@@ -52,6 +56,12 @@ border: 0;
 }
 .web-name {
   text-align: center;
+}
+.errors {
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: red;
 }
 @media only screen and (max-width:700px) {
   form input{
@@ -109,7 +119,7 @@ border: 0;
   position: relative;
 }
 .loader-1 {
-  animation:pop .4s cubic-bezier(0, 1.04, 0.12, 1.13) infinite;
+  animation:pop .6s cubic-bezier(0, 1.04, 0.12, 1.13) infinite;
 }
 @keyframes pop {
   0% {

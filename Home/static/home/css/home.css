@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
 .footer {
   background-color: #808080;
   min-height: 200px;
@@ -73,11 +77,11 @@
   .why-smart > div {
     width: 100%;
   }
-  .why-smart > .bin-note {
+  .bin-note {
     font-size: 20px;
     display: block;
-  }
-  .bin-note {
+    margin: auto;
+    padding: 10px;
     max-width: 400px;
     margin: auto;
   }
@@ -95,11 +99,17 @@
   .team {
     padding: 10px;
     display: block;
+    padding-bottom: 50px;
   }
-  .team {
+  .team .sidenote {
+    text-align: center;
   }
   .team .team-photo{
     display: block;
+  }
+  .team .team-photo img{
+    display: block;
+    margin: auto;
   }
   .team .sidenote {
     flex: 3;
@@ -116,6 +126,7 @@
     margin-top: 70px;
   }
   .sponsors >div{
+    display: block;
     margin: auto;
   }
   .sponsors >div>div{
@@ -125,6 +136,8 @@
   .sponsors img {
     width: 120px;
     height: 60px;
+    display: block;
+    margin: auto;
   }
   .footer-wrapper > div {
     margin-left: 20%;

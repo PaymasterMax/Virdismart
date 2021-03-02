@@ -1,0 +1,50 @@
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+h2 {
+  text-align: center;
+}
+@media only screen and (max-width:1200px) {
+  .root {
+    max-width: 80vw;
+    display: block;
+    margin: auto;
+  }
+  .root >div {
+    margin: 0px 10px;
+  }
+  .users-table h5 {
+    text-align: center;
+    margin: auto;
+  }
+  .users-table table{
+      margin: auto;
+  }
+  .users-table th,td{
+    padding: 3px;
+    margin: 3px;
+  }
+}
+@media only screen and (min-width:1200px) {
+    .root {
+      display: flex;
+      align-content: center;
+      width: 70vw;
+      margin: auto;
+    }
+    .root >div {
+      flex: 2;
+      margin: 0px 40px;
+    }
+    .users-table h5 {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .users-table table{
+        margin: auto;
+    }
+    .users-table th,td{
+      padding: 6px;
+    }
+}

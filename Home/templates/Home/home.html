@@ -5,7 +5,7 @@
           <div class="side-note">
               <h1>Turn your trash to cash with our smart bin</h1>
               <p class="tip">Drop your recycleables in our smartbin to get points which you can redeem for cash or discounts on selected products</p>
-              <button type="button" name="button">View stats</button>
+              <button class="stats" type="button" name="button">View stats</button>
           </div>
       </div>
       <div class="working">
@@ -34,11 +34,11 @@
             </div>
         </div>
         <div class="team">
+          <div class="sidenote">
+            <h2>Know the team</h2>
+          </div>
             <div class="team-photo">
                 <img src="{% static 'images/team.jpg' %}" loading="lazy" alt="team">
-            </div>
-            <div class="sidenote">
-                <h2>Know the team</h2>
             </div>
         </div>
       </div>
@@ -73,4 +73,5 @@
   <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
 {% endblock %}
 {% block js %}
+  <script src="{% static 'home/js/home.js' %}" charset="utf-8"></script>
 {% endblock %}
