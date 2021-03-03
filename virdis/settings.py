@@ -95,4 +95,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'Blogs/static/',
     BASE_DIR / 'Team/static/',
 ]
+STATIC_ROOT = BASE_DIR / "STATIC_ROOT/"
+MEDIA_ROOT = BASE_DIR / "MEDIA_ROOT/"
+
 STATIC_URL = '/static/'

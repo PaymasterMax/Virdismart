@@ -1,0 +1,40 @@
+.team1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: content;
+}
+.team {
+  
+}
+.team1 img {
+  width: 200px;
+  height: 200px;
+}
+.team-info{
+  position: relative;
+  height: 100%;
+  top: -200px;
+  z-index: 3;
+}
+.team-info label {
+  position: relative;
+  display: block;
+  margin: 10px auto;
+  right: -10px;
+}
+.social-links i{
+  margin: 0px 10px;
+  font-size: 1.4em;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+@keyframes slideUp {
+  0% {
+      transform: translateY(-80px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
