@@ -16,13 +16,14 @@ window.onscroll = (e)=>{
         document.querySelector(".go-top").setAttribute("style", "display:none;")
     }
   }else {
+    if (window.getComputedStyle(document.querySelector(".go-top")).display == "none") {
+        document.querySelector(".go-top").setAttribute("style", "display:block;")
+    }
     if (scrollPos<positionScreen) {
-      document.querySelector(".go-top").setAttribute("style", "display:none;")
+      // document.querySelector(".go-top").setAttribute("style", "display:none;")
       navbar.classList.remove("navbars");
-      // navbar.classList.add("navbarAnimUp");
     }else {
-      document.querySelector(".go-top").setAttribute("style", "display:block;")
-      // navbar.classList.remove("navbarAnimUp");
+      // document.querySelector(".go-top").setAttribute("style", "display:block;")
       navbar.classList.add("navbars");
     }
   }

@@ -187,7 +187,7 @@
     }
 }
 /* small devices */
-@media only screen and (max-width:1220px) {
+@media only screen and (max-width:987px) {
   .trigger-side {
     display: block;
     float: left !important;
@@ -238,11 +238,8 @@
   .mid-main-footer {
     margin: 0px 10px;
   }
-  .trigger-side {
-    display: none;
-  }
 }
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:987px) {
   .menu-side {
     display: none;
   }
@@ -267,9 +264,10 @@
     flex: 1;
   }
   .dev-navbar img {
-    width: 300px;
-    height: 150px;
+    width: 150px;
+    height: 70px;
     margin: auto;
+    margin-left: 20px;
   }
   .final{
       display: flex;
