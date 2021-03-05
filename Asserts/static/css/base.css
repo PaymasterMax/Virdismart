@@ -15,7 +15,7 @@
     justify-content: center;
     background-color: grey;
     align-items: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: fixed;
     display: flex;
     height: 100%;
@@ -213,6 +213,7 @@
       display: block;
       height: 100px;
       color: #ffffff;
+      z-index: 1;
       top: 0px;
       left: 0px;
     }

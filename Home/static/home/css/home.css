@@ -2,15 +2,6 @@ a:hover {
   text-decoration: none;
   color: #fff;
 }
-.top-peak {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-.top-peak * {
-  flex: 1;
-}
 .footer {
   background-color: #808080;
   min-height: 200px;
@@ -81,6 +72,15 @@ a:hover {
   display: block;
   margin: auto;
 }
+.smartdata {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+}
+.quick-info {
+    padding: 10px 15px;
+  }
 @media only screen and (max-width:1220px) {
   .bin-note {
     font-size: 20px;
@@ -170,6 +170,20 @@ a:hover {
     padding-top:90px;
     font-size: 1.2em;
     margin-left: 60px;
+  }
+  .top-peak {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    width: 80vw;
+    margin: 60px auto;
+  }
+  .top-peak * {
+    flex: 1;
+  }
+  .top-peak img {
+    width: 500px;
+    height: 400px;
   }
   .working img {
     max-width: 60%;
