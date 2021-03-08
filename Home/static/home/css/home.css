@@ -1,3 +1,33 @@
+.quick-stats {
+  justify-content: center;
+  margin-bottom: 30px;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.quick-stats div {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 5px 30px;
+  font-weight: 400;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 40px;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  display: flex;
+  color: #000;
+}
+.quick-stats p:hover {
+  cursor: pointer;
+}
+.quick-stats p {
+  font-weight: normal;
+  font-size: 12px;
+}
 a:hover {
   text-decoration: none;
   color: #fff;
