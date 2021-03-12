@@ -17,8 +17,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Accounts',
     'Home',
-    'Blogs',
-    'Team',
 ]
 
 MIDDLEWARE = [
@@ -38,9 +36,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
         BASE_DIR / 'Accounts/templates/',
-        BASE_DIR / 'Blogs/templates/',
         BASE_DIR / 'Home/templates/',
-        BASE_DIR / 'Team/templates/',
             BASE_DIR / 'Asserts/templates/',
         ],
         'APP_DIRS': True,
@@ -92,8 +88,6 @@ STATICFILES_DIRS = [
     BASE_DIR / 'Accounts/static/',
     BASE_DIR / 'Asserts/static/',
     BASE_DIR / 'Home/static/',
-    BASE_DIR / 'Blogs/static/',
-    BASE_DIR / 'Team/static/',
 ]
 STATIC_ROOT = BASE_DIR / "STATIC_ROOT/"
 MEDIA_ROOT = BASE_DIR / "MEDIA_ROOT/"

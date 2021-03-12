@@ -39,7 +39,6 @@
   display: block;
 }
 .footer {
-  /* min-height: 70vh; */
   width: 100%;
   background-color: grey;
 }
@@ -246,7 +245,7 @@
   }
   .dev-navbar {
     background-color: #ff884a;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: center;
     align-items: center;
     height: 100px;
@@ -260,9 +259,16 @@
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
+    margin: auto 10px;
   }
   .dev-navbar > div {
     flex: 1;
+  }
+  .dev-navbar .dev-link {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: flex-end;
   }
   .dev-navbar img {
     width: 150px;

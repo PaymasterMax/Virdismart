@@ -1,68 +1,162 @@
 {% extends 'base.html' %} {% load static %}
 {% block wrapper %}
-  <div class="home">
-      <div class="preview">
-          <div class="side-note">
+<div class="page-wrapper">
+          <div class="virdis-preview">
+            <div class="prev-side">
               <h1>Turn your trash to cash with our smart bin</h1>
-              <p class="tip">Drop your recycleables in our smartbin to get points which you can redeem for cash or discounts on selected products</p>
-              <button class="stats" type="button" name="button">View stats</button>
+              <p>Drop your recycleables in our smartbin to get points which you can redeem for cash or discounts on selected products</p>
+                <button type="button" name="button" class="stats">View stats</button>
+            </div>
           </div>
-      </div>
-      <div class="working">
-          <h1>How it works</h1>
-            <div class="">
-                <img src="{% static 'images/procedure.png' %}" loading="lazy" alt="how it works">
+            <div class="more">
+              <div class="more-content">
+                  <div class="spinner">
+                      <p>Less than <br>
+                            5% <br>
+                      Recycling rate
+                    </p>
+                  </div>
+                  <div class="description">
+                      <h2 class="topic-header">Problem</h2>
+                      <p>
+                        Over 2,475 tons of waste is generated in
+                        Nairobi daily. However, less than 5% is ecycled. The rest ends up in landfills or illegal dumping sites.
+                      </p>
+                  </div>
+              </div>
             </div>
-      </div>
-      <h4 class="smartdata">Why smartbin</h4>
-      <div class="top-peak">
-        <div class="bin-image">
-            <img src="{% static 'images/smart.png' %}" alt="bin" loading="lazy" class="img-fluid pt-5 pl-2 pr-2 pt-lg-0">
-        </div>
-        <div class="quick-info">
-          The Smart Recycling Bin aims to transform
-          the current waste collection and
-          management systems in Nairobi and grow
-          to serve Sub Saharan Africa. The Smart
-          recycling Bin is capable of identifying the
-          type of waste being disposed of and
-          rewards the user with points which they
-          could later redeem for cash or discounts
-          on products in participating stores or other
-          commercial entities.
-        </div>
-      </div>
-      <div class="quick-stats">
-            <div>
-              120
-              <br>
-              <p>No of Bins</p>
+                  <div class="understand">
+                    <div class="process-item">
+                        <img src="{% static 'home/images/waste-truck.png' %}" alt="waste-truck">
+                        <div class="process-info">
+                          <h4>Collection</h4>
+                            Waste is collected <br>
+                            indiscriminately with <br>
+                            only 5% being <br>
+                            adequately sorted.
+                        </div>
+                    </div>
+                    <div class="process-item">
+                      <img src="{% static 'home/images/sorting.png' %}" alt="waste-truck">
+                      <div class="process-info">
+                        <h4>Sorting</h4>
+                          Recyclable materials are often <br>mixed with health-hazardous <br>substances. This makes sorting <br>costly and time consuming.
+                      </div>
+                    </div>
+                    <div class="process-item">
+                      <img src="{% static 'home/images/recycling.png' %}" alt="waste-truck">
+                      <div class="process-info">
+                        <h4>Recycling</h4>
+                          Contamination results in <br>recycling being a liability <br>
+                          and less profitable <br>compared to producing <br>new materials.
+                      </div>
+                    </div>
+              </div>
+              <div class="understand-wrapper">
+                <div class="proposition">
+                  <div class="prop-item">
+                      <img src="{% static 'home/images/woman.png' %}">
+                    </div>
+                  <div class="description">
+                    <h2 class="topic-header">Value Proposition</h2>
+                    <p>
+                        A Smart Recycling Bin that identifies <br> waste disposed of  and rewards users <br>with points that can be redeemed for <br>cash or discount on products.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="working">
+                  <h1>How it works</h1>
+                  <div class="working-img">
+                    <img src="{% static 'home/images/rec.png' %}">
+                  </div>
+                </div>
             </div>
-            <div>
-              20
-              <br>
-              <p>No of Users</p>
+            <div class="showcase">
+                <div class="video">
+                    <iframe loading="lazy" width="853" height="480" src="https://www.youtube.com/embed/wiA6hNPXDRM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                  <div class="user-inter">
+                        <div class="content-wrapper">
+                          <div class="proposition">
+                            <div class="prop-item">
+                                <img src="{% static 'home/images/woman.png' %}" alt="user">
+                            </div>
+                            <div class="description">
+                              <h2 class="topic-header">The Smart Bin App</h2>
+                                <p>
+                                  Use your phone to find the nearest Smart Bin <br>in your area to drop of your trash and earn points.<br>
+                                  Redeem your points for cash or discounts on <br>products.
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="competitive">
+                          <h2 class="topic-header">Competitve Advantage</h2>
+                          <div class="advantage">
+                            <div class="it-adv">
+                                <img src="{% static 'home/images/FIrstToMarket.png' %}" alt="first in market">
+                                <p>First to Market <br>using IoT on <br>Trash</p>
+                            </div>
+                            <div class="it-adv">
+                                <img src="{% static 'home/images/IP.png' %}" alt="IP">
+                                <p>Patented IP <br>Advantage</p>
+                            </div>
+                              <div class="it-adv">
+                                  <img src="{% static 'home/images/EaseOfUse.png' %}" alt="ease of use">
+                                  <p>Ease of use, <br>simply scan, <br>drop and earn</p>
+                              </div>
+                              <div class="it-adv">
+                                  <img src="{% static 'home/images/community.png' %}" alt="community">
+                                  <p>Community <br>Driven</p>
+                              </div>
+                          </div>
+                      </div>
+            <div class="founders">
+                <h2 class="topic-header">Founders</h2>
+              <div class="f-profile">
+                <div class="f-1">
+                    <img src="{% static 'home/images/eric.png' %}" alt="Paige Maina">
+                    <div class="title">
+                        <h3>Eric M Mwirichia</h3>
+                        <br>Co-Founder& CEO
+                    </div>
+                </div>
+                  <div class="f-1">
+                      <img src="{% static 'home/images/paige.png' %}" alt="Paige Maina">
+                      <div class="title">
+                          <h3>Paige Maina</h3>
+                          <br>Co-Founder& COO
+                      </div>
+                  </div>
+              </div>
             </div>
-            <div>30
-              <br>
-              <p>Points awarded</p>
+            <div class="partners">
+                <h2 class="topic-header">Partners</h2>
+              <div class="partners-wrap">
+                  <div class="item-1">
+                        <img src="{% static 'home/images/sponsors/ford.png' %}" alt="ford">
+                  </div>
+                  <div class="item-1">
+                        <img src="{% static 'home/images/sponsors/clinton.png' %}" alt="clinton">
+                  </div>
+                  <div class="item-1">
+                        <img src="{% static 'home/images/sponsors/enactus.png' %}" alt="enactus">
+                  </div>
+                  <div class="item-1">
+                        <img src="{% static 'home/images/sponsors/cress.png' %}" alt="cress">
+                  </div>
+                  <div class="item-1">
+                        <img src="{% static 'home/images/sponsors/mmu.png' %}" alt="mmu">
+                  </div>
+                  <div class="item-1">
+                        <img src="{% static 'home/images/sponsors/eden.png' %}" alt="eden">
+                  </div>
+              </div>
             </div>
-      </div>
-      <div class="description">
-          <iframe width="640" height="360" src="https://www.youtube.com/embed/wiA6hNPXDRM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="sponsors">
-        <h3 class="sponsors-header">Our sponsors</h3>
-          <div class="sponsors-list">
-              <img src="{% static 'images/sponsors/ford.png' %}" alt="">
-              <img src="{% static 'images/sponsors/eden.png' %}" alt="">
-              <img src="{% static 'images/sponsors/clinton.png' %}" alt="">
-              <img src="{% static 'images/sponsors/cress.png' %}" alt="">
-              <img src="{% static 'images/sponsors/enactus.png' %}" alt="">
-              <img src="{% static 'images/sponsors/mmu.png' %}" alt="">
           </div>
-      </div>
-  </div>
+</div>
 {% endblock %}
 <!-- resources links -->
 {% block css %}

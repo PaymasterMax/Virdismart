@@ -23,10 +23,7 @@
               <a href="{% url 'home:home' %}">Home &#8594;</a>
             </div>
             <div class="url-links">
-              <a href="https://medium.com/@blog_555" target="_blank">Blogs &#8594;</a>
-            </div>
-            <div class="url-links">
-                <a href="{% url 'Team:team' %}" class="bout-us">About us &#8594;</a>
+                <a href="{% url 'home:team' %}" class="bout-us">Our Team&#8594;</a>
             </div>
             <div class="url-links">
                 <a href="/#footer">Contact us &#8594;</a>
@@ -48,24 +45,26 @@
               <div class="logo">
                   <img src="{% static 'images/logos/logo.png' %}" loading="lazy" alt="virdis" onclick="window.location.href='/'">
               </div>
-              <div class="our-impact">
-                  <a href="{% url 'home:home' %}">Home</a>
-              </div>
-              <div class="contact">
-                <a href="https://medium.com/@blog_555" target="_blank">Blogs</a>
-              </div>
-              <div class="discover">
-                  <a href="{% url 'Team:team' %}">About us</a>
-              </div>
-              {% if additional_info.logged_in %}
-              <div class="login">
-                <a href="{% url 'Accounts:logout' %}">Logout</a>
-              </div>
-                {% else %}
-                <div class="login">
-                  <a href="{% url 'Accounts:account' %}">Login</a>
+              <div class="dev-link">
+                <div class="our-impact">
+                    <a href="{% url 'home:home' %}">Home</a>
                 </div>
-              {% endif %}
+                <!-- <div class="contact">
+                  <a href="https://medium.com/@blog_555" target="_blank">Blogs</a>
+                </div> -->
+                <div class="discover">
+                    <a href="{% url 'home:team' %}">Our Team</a>
+                </div>
+                {% if additional_info.logged_in %}
+                <div class="login">
+                  <a href="{% url 'Accounts:logout' %}">Logout</a>
+                </div>
+                  {% else %}
+                  <div class="login">
+                    <a href="{% url 'Accounts:account' %}">Login</a>
+                  </div>
+                {% endif %}
+              </div>
         </div>
         <div class="navbar2 dev-nav">
           <div class="trigger-side">
@@ -84,18 +83,18 @@
         <hr>
           <div class="top-footer">
             <div class="main-footer">
-                <h4>Our products</h4>
+                <h4>Social Platform</h4>
                 <div class="">
-                    <a href="#">Security policy</a>
+                    <a href="#">Facebook</a>
                 </div>
                 <div class="">
-                    <a href="#">Terms & conditions</a>
+                    <a href="#">Instagram</a>
                 </div>
                 <div class="">
-                    <a href="#">Developer portal</a>
+                    <a href="#">Linkedin</a>
                 </div>
                 <div class="">
-                    <a href="#">Pricing & subscriptions</a>
+                    <a href="#">Twitter</a>
                 </div>
             </div>
             <div class="main-footer mid-main-footer">
@@ -128,12 +127,9 @@
           </div>
           <hr class="horizontal">
       <div class="final">
-        <div class="logo">
-            <img src="{% static 'images/logos/virdis.png' %}" loading="lazy" alt="virdis">
-        </div>
-        <div class="copy-write">
-          All rights reserved 2020 <sup>&copy;</sup>
-        </div>
+        <a href="">www.virdis.co.ke</a>
+        <a href="">info@virdis.co.ke</a>
+        <p>0722 517 627</p>
       </div>
     </div>
     <div class="go-top">

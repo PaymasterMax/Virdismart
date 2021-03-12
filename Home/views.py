@@ -21,3 +21,11 @@ def statsView(request):
     return render(request, "Home/stats.html",context={
         "additional_info":additional_info
     })
+
+def teamView(request):
+    additional_info = {
+        "logged_in": True if request.user.is_authenticated else False
+    }
+    return render(request, "Home/team.html",{
+        "additional_info":additional_info,
+    })
