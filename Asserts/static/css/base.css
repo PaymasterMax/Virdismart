@@ -11,6 +11,10 @@
   border: 0px !important;
   outline: none !important;
 }
+a:hover {
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
 .loading {
     justify-content: center;
     background-color: grey;
@@ -76,10 +80,13 @@
 }
 .go-top {
   background-color: #168d75;
+  justify-content: center;
+  align-content: center;
   border-radius: 50%;
+  align-items: center;
   font-weight: bold;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   cursor: pointer;
   position: fixed;
   bottom: 30px;
@@ -87,6 +94,7 @@
   width: 60px;
   height: 60px;
   right: 10px;
+  display: flex;
 }
 .menu-side {
   animation: slide .3s 1 ease-out;
@@ -140,13 +148,6 @@
   text-decoration: none;
   color: #fff;
 }
-.final img {
-  max-width: 200px;
-  max-height: 200px;
-}
-.final .rights {
-  text-align: center;
-}
 .dev-navbar {
   position: static;
   top: 0px;
@@ -169,6 +170,31 @@
   height: 100px;
   display: flex;
 }
+.final {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.final a {
+  min-width: 150px;
+}
+.edison {
+  color: #ffc617;
+  text-align: center;
+}
+.virdis-social a{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  align-content: center;
+}
+.virdis-social a>i{
+  margin: auto 6px;
+  color: reset;
+}
 @keyframes navbarAnim {
     0% {
           transform: translateY(-100px);
@@ -186,7 +212,7 @@
     }
 }
 /* small devices */
-@media only screen and (max-width:987px) {
+@media only screen and (max-width:580px) {
   .trigger-side {
     display: block;
     float: left !important;
@@ -194,16 +220,6 @@
     margin-left: 15px;
     margin-top: 20px;
   }
-  .final .logo {
-    display: block;
-    margin: auto;
-  }
-  .final img {
-      max-width: 200px;
-      max-height: 200px;
-      display: block;
-      margin: auto;
-    }
     .dev-navbar {
       display: none;
     }
@@ -219,6 +235,9 @@
     .navbar2 h2 {
       text-align: center;
       margin: auto;
+      }
+      .main-footer h4{
+        text-align: center;
       }
 }
 @media only screen and (min-width:700px) {
@@ -239,7 +258,7 @@
     margin: 0px 10px;
   }
 }
-@media only screen and (min-width:987px) {
+@media only screen and (min-width:580px) {
   .menu-side {
     display: none;
   }
@@ -275,18 +294,6 @@
     height: 70px;
     margin: auto;
     margin-left: 20px;
-  }
-  .final{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      align-content: center;
-  }
-  .final .copy-write {
-    flex:2;
-    }
-  .final .logo {
-    flex: 1;
   }
 }
 @keyframes slide {

@@ -65,12 +65,13 @@
   height: 250px;
   display: flex;
 }
-.more-content .description {
-  flex-direction: column;
+/* .more-content */
+ .description {
+  /* flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
-  display: flex;
+  display: flex; */
   width: 400px;
 }
 .description p {
@@ -193,7 +194,7 @@
   flex-wrap: wrap;
 }
 .f-1 img {
-  height: 357px;
+  height: 270px;
 }
 .f-1 .title{
   display: flex;
@@ -224,6 +225,11 @@
   margin: auto;
   display: block;
 }
+.topic-header-alt {
+  display: none;
+  text-align: center;
+  color: #01156e;
+}
 @media only screen and (max-width:1220px) {
   .prev-side button{
       padding: 10px 18px;
@@ -238,7 +244,14 @@
     margin-left: 30px;
   }
   .process-item .process-info p {
-    font-size: 25px;
+  }
+}
+@media only screen and (max-width:815px) {
+  .topic-header-alt {
+    display: block;
+  }
+  .topic-header {
+    display: none;
   }
 }
 @media only screen and (max-width:671px) {
@@ -250,9 +263,6 @@
   }
   .virdis-preview .prev-side {
     margin-left: 10px;
-  }
-  .topic-header {
-    display: none;
   }
 }
 @media only screen and (min-width:1220px) {

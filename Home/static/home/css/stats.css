@@ -25,6 +25,20 @@ h2 {
     padding: 3px;
     margin: 3px;
   }
+  .graph-data {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .graph-data canvas {
+    display: block;
+    margin: auto;
+  }
 }
 @media only screen and (min-width:1200px) {
     .root {
