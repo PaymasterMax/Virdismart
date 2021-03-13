@@ -4,7 +4,7 @@ window.addEventListener("load" , function (e) {
   let screenSize = window.innerHeight;
   let positionScreen = window.pageYOffset;
   let total_documentHeight = document.documentElement.scrollHeight
-  $(".scrollbar").css("width",((positionScreen)/(total_documentHeight-screenSize))*100 + "%")
+  // $(".scrollbar").css("width",((positionScreen)/(total_documentHeight-screenSize))*100 + "%")
 })
 window.onscroll = (e)=>{
   let screenSize = window.innerHeight;

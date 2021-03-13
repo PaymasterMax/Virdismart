@@ -9,11 +9,11 @@ let grp3_height = grp3.offsetTop + grp3.offsetHeight;
 navbar = document.querySelector(".dev-navbar")
 navbar1 = document.querySelector(".navbar2")
 
-$(".stats").click((e)=>{
+document.querySelector(".stats").addEventListener("click",(e)=>{
   storage.setItem("redirect","/blogs/")
   window.location = "/stats/"
 })
-$(".scroll-down").click((e)=>{
+document.querySelector(".scroll-down").addEventListener("click",(e)=>{
   scrollTo(0,(document.querySelector(".group-1").offsetTop)-navbar.offsetHeight);
 })
 window.addEventListener("scroll", function (e) {
