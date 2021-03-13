@@ -13,7 +13,7 @@
 }
 a:hover {
     text-decoration: none !important;
-    color: #ffffff !important;
+    cursor: pointer;
 }
 .loading {
     justify-content: center;

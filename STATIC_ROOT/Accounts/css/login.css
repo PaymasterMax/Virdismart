@@ -100,13 +100,13 @@ border: 0;
 }
 .loaders {
   background-color: #808080d6;
-  flex-direction: row;
-  position: fixed;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: none;
-  align-items: center;
   justify-content: center;
+  flex-direction: row;
+  min-width: 100vw;
+  align-items: center;
+  min-height: 100vh;
+  position: fixed;
+  display: none;
   left: 0px;
   top: 0px;
   z-index: 1;
