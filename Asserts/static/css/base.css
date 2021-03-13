@@ -44,7 +44,7 @@ a:hover {
 }
 .footer {
   width: 100%;
-  background-color: grey;
+  background-color: #379683;
 }
 .footer >div::selection {
   background-color: inherit;
@@ -79,7 +79,7 @@ a:hover {
   background-color: inherit;
 }
 .go-top {
-  background-color: #168d75;
+  background-color: #edf5e1;
   justify-content: center;
   align-content: center;
   border-radius: 50%;
@@ -224,10 +224,10 @@ a:hover {
       display: none;
     }
     .navbar2 {
-      background-color: #ff884a;;
+      background-color: #edf5e1;
       display: block;
       height: 100px;
-      color: #ffffff;
+      color: #05386b !important;
       z-index: 1;
       top: 0px;
       left: 0px;
@@ -263,19 +263,19 @@ a:hover {
     display: none;
   }
   .dev-navbar {
-    background-color: #ff884a;
+    background-color: #edf5e1;
     justify-content: flex-end;
     align-content: center;
     align-items: center;
     height: 100px;
-    color: #ffffff;
+    color: #05386b !important;
     display: flex;
   }
   .navbar2 {
     display: none;
   }
   .dev-navbar a {
-    color: #ffffff;
+    color: #05386b;
     text-decoration: none;
     font-size: 20px;
     margin: auto 10px;

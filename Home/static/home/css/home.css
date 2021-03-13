@@ -5,6 +5,9 @@
   margin: 0px;
   font-family: sans-serif;
 }
+body {
+  background-color: #edf5e1 !important;
+}
 .page-wrapper {
   max-width: 100vw;
   overflow-x: hidden;
@@ -65,13 +68,7 @@
   height: 250px;
   display: flex;
 }
-/* .more-content */
  .description {
-  /* flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  display: flex; */
   width: 400px;
 }
 .description p {
@@ -119,7 +116,8 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  margin: 50px auto;
+  margin: 0px auto;
+  padding: 20px;
 }
 .prop-item {
   width: 400px;
@@ -142,7 +140,7 @@
   flex-direction: column;
 }
 .working img {
-  max-width: 400px;
+  width: 500px;
   max-height: 300px;
 }
 .video {
@@ -161,7 +159,7 @@
 }
 .competitive h2 {
   text-align: center;
-  padding: 30px;
+  padding: 4px;
 }
 .competitive .advantage {
   justify-content: space-around;
@@ -173,18 +171,20 @@
 .advantage .it-adv p{
   justify-content: center;
   display: flex;
-  margin: 20px auto;
+  margin: 10px auto;
+  text-align: center;
 }
 .advantage .it-adv img{
   width: 150px;
   height: 150px;
 }
 .founders {
-  margin: 70px auto;
+  padding: 30px auto;
+  background-color: #edf5e1;
 }
 .founders h2 {
   text-align: center;
-  padding: 40px;
+  padding: 10px;
 }
 .founders .f-profile {
   display: flex;
@@ -201,16 +201,17 @@
   align-items: center;
   flex-direction: column;
 }
-.partners {
+.group-3 {
+  background-color: #edf5e1;
 }
 .partners h2 {
   text-align: center;
-  padding: 40px;
+  padding: 10px auto;
 }
 .partners-wrap {
   justify-content: space-around;
   align-content: center;
-  margin: 40px auto;
+  padding: 40px auto;
   align-items: center;
   flex-wrap: wrap;
   display: flex;
@@ -229,6 +230,12 @@
   display: none;
   text-align: center;
   color: #01156e;
+}
+.group-1 {
+  background-color: #edf5e1;
+}
+.group-2 {
+  background-color: #8ee4af;
 }
 @media only screen and (max-width:1220px) {
   .prev-side button{
