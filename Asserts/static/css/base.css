@@ -149,7 +149,7 @@ a:hover {
   color: #fff;
 }
 .dev-navbar {
-  position: static;
+  position: sticky;
   top: 0px;
   z-index: 2;
 }
