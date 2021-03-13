@@ -94,7 +94,6 @@ a:hover {
   width: 60px;
   height: 60px;
   right: 10px;
-  display: flex;
 }
 .menu-side {
   animation: slide .3s 1 ease-out;
@@ -225,9 +224,10 @@ a:hover {
     }
     .navbar2 {
       background-color: #edf5e1;
+      color: #05386b !important;
+      position: sticky;
       display: block;
       height: 100px;
-      color: #05386b !important;
       z-index: 1;
       top: 0px;
       left: 0px;

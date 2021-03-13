@@ -12,17 +12,16 @@ window.onscroll = (e)=>{
   let total_documentHeight = document.documentElement.scrollHeight
   let navbar = (window.getComputedStyle(document.querySelectorAll(".dev-nav")[0]).display =="flex") ? document.querySelectorAll(".dev-nav")[0] : document.querySelectorAll(".dev-nav")[1]
   if (positionScreen<=screenSize) {
-    if (window.getComputedStyle(document.querySelector(".go-top")).display == "block") {
+    if (window.getComputedStyle(document.querySelector(".go-top")).display == "flex") {
         document.querySelector(".go-top").setAttribute("style", "display:none;")
     }
   }else {
+    if (window.getComputedStyle(document.querySelector(".go-top")).display == "none") {
+        document.querySelector(".go-top").setAttribute("style", "display:flex;")
+    }
     if (scrollPos<positionScreen) {
-      document.querySelector(".go-top").setAttribute("style", "display:none;")
       navbar.classList.remove("navbars");
-      // navbar.classList.add("navbarAnimUp");
     }else {
-      document.querySelector(".go-top").setAttribute("style", "display:block;")
-      // navbar.classList.remove("navbarAnimUp");
       navbar.classList.add("navbars");
     }
   }
