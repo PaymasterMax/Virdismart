@@ -22,13 +22,16 @@ a:hover {
     overflow: hidden;
     position: fixed;
     display: flex;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     z-index: 3;
     top: 0px;
     left: 0px;
 }
 .loading img {
+  animation: spinLoader 2s ease-out infinite;
+  border: 7px solid #fff;
+  border-radius: 50%;
   width: 200px;
   height: 200px;
 }
@@ -187,12 +190,25 @@ a:hover {
 .virdis-social a{
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   align-content: center;
 }
 .virdis-social a>i{
   margin: auto 6px;
   color: reset;
+}
+@keyframes spinLoader {
+  25% {
+          border-top: 7px solid #8ee4af;
+  }
+  50% {
+      border-right: 7px solid #8ee4af;
+  }
+  75% {
+      border-bottom: 7px solid #8ee4af;
+  }
+  100% {
+      border-left: 7px solid #8ee4af;
+  }
 }
 @keyframes navbarAnim {
     0% {
