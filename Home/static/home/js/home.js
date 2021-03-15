@@ -6,6 +6,8 @@ let grp2 = document.querySelector(".group-2")
 let grp2_height = grp2.offsetTop + grp2.offsetHeight;
 let grp3 = document.querySelector(".group-3")
 let grp3_height = grp3.offsetTop + grp3.offsetHeight;
+let mouse = document.querySelector(".mouse")
+let mouse1 = document.querySelector(".mouse1")
 navbar = document.querySelector(".dev-navbar")
 navbar1 = document.querySelector(".navbar2")
 
@@ -15,6 +17,11 @@ document.querySelector(".stats").addEventListener("click",(e)=>{
 })
 document.querySelector(".scroll-down").addEventListener("click",(e)=>{
   scrollTo(0,(document.querySelector(".group-1").offsetTop)-navbar.offsetHeight);
+})
+window.addEventListener("mousemove",function(e) {
+        let x = e.clientX;
+        let y = e.clientY;
+        mouse.style.cssText=mouse1.style.cssText="top:"+y+"px;left:"+x+"px;"
 })
 window.addEventListener("scroll", function (e) {
     let currentPosition = window.pageYOffset;

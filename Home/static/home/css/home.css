@@ -5,6 +5,32 @@
   margin: 0px;
   font-family: sans-serif;
 }
+html {
+  /*cursor: none;*/
+}
+body {
+  /*cursor: none;*/
+}
+.mouse {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  border: 1px solid #ffffff;
+  top: 0px;
+  left:0px;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+.mouse1 {
+  width: 8px;
+  height: 8px;
+  position: fixed;
+  background-color: #000;
+  top: 0px;
+  left:0px;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
 body {
   background-color: #edf5e1 !important;
 }
@@ -56,6 +82,9 @@ body {
   color: #000;
   top: 1vh;
   margin: auto;
+}
+.arrow-down::selection {
+  background-color: inherit;
 }
 .more {
   padding-top: 40px;

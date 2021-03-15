@@ -7,7 +7,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '_ddyqu_(vf$c6*ejoap-!y)1@1z)2m-jirhci%k#9f@sn=a77e'
 DEBUG = True
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["virdis.co.ke","127.0.0.1","*"]
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -84,6 +84,13 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+# email configs
+EMAIL_HOST = "mail.virdis.co.ke"
+EMAIL_HOST_USER = "mailer@virdis.co.ke"
+EMAIL_HOST_PASSWORD="J93Z)cvs5*kN7I"
+EMAIL_HOST_PORT = 465
+EMAIL_USE_TLS = True
+
 STATICFILES_DIRS = [
     BASE_DIR / 'Accounts/static/',
     BASE_DIR / 'Asserts/static/',
