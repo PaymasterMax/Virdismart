@@ -17,7 +17,7 @@ a:hover {
 }
 .loading {
     justify-content: center;
-    background-color: grey;
+    background-color: #edf5e1;
     align-items: center;
     overflow: hidden;
     position: fixed;
@@ -29,7 +29,7 @@ a:hover {
     left: 0px;
 }
 .loading img {
-  animation: spinLoader 2s ease-out infinite;
+  animation: spinLoader .4s cubic-bezier(0.94, 0.51, 0.29, 1.28) infinite;
   border: 7px solid #fff;
   border-radius: 50%;
   width: 200px;
@@ -82,7 +82,7 @@ a:hover {
   background-color: inherit;
 }
 .go-top {
-  background-color: #edf5e1;
+  background-color: #00bcd4a6;
   justify-content: center;
   align-content: center;
   border-radius: 50%;

@@ -36,7 +36,7 @@ class Virdismart(AbstractBaseUser):
     is_admin = models.BooleanField(default = False)
     is_staff = models.BooleanField(default = True)
     date_joined = models.DateTimeField(auto_now_add = True)
-    is_active = models.BooleanField(default = False)
+    is_active = models.BooleanField(default = True)
 
     USERNAME_FIELD = "email"
 
@@ -46,8 +46,12 @@ class Virdismart(AbstractBaseUser):
 
     objects = VrdisManager()
 
+    class Meta:
+        db_table = "Accounts"
+        
     def __str__(self):
         return self.username
+
     def get_short_name(self):
         return self.email
 
