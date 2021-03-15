@@ -12,6 +12,7 @@ navbar = document.querySelector(".dev-navbar")
 navbar1 = document.querySelector(".navbar2")
 
 document.querySelector(".stats").addEventListener("click",(e)=>{
+    console.log("Hello")
   storage.setItem("redirect","/blogs/")
   window.location = "/stats/"
 })
