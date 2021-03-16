@@ -304,6 +304,7 @@ a:hover {
     align-items: center;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 20px;
   }
   .dev-navbar img {
     width: 150px;
