@@ -1,13 +1,12 @@
 a:hover {
   text-decoration: none;
-  color: #fff;
 }
 h2 {
   text-align: center;
 }
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:900px) {
   .root {
-    max-width: 80vw;
+    max-width: 90vw;
     display: block;
     margin: auto;
   }
@@ -40,16 +39,16 @@ h2 {
     margin: auto;
   }
 }
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:900px) {
     .root {
-      display: flex;
       align-content: center;
-      width: 70vw;
+      display: flex;
+      width: 90vw;
       margin: auto;
     }
     .root >div {
       flex: 2;
-      margin: 0px 40px;
+      margin: 0px 20px;
     }
     .users-table h5 {
       text-align: center;

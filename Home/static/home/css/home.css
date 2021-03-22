@@ -327,6 +327,8 @@ body {
   .virdis-preview .prev-side {
     margin-left: 60px;
   }
+}
+@media only screen and (min-width:888px) {
   .mcursor {
     display: block;
   }

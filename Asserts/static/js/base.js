@@ -31,9 +31,9 @@ document.querySelector(".go-top").addEventListener("click",(e)=>{
   scrollTo(0,0)
   document.querySelector(".go-top").setAttribute("style", "display:none")
 })
-document.querySelector(".bout-us").addEventListener("click",function (e) {
+document.querySelector(".contact-us").addEventListener("click",function (e) {
   if (window.getComputedStyle(document.querySelector(".menu-side")).display == "block") {
-      document.querySelector(".menu-side").setAttribute("style", "display:block;")
+      document.querySelector(".menu-side").setAttribute("style", "display:none;")
   }
 })
 document.querySelector(".trigger-side").addEventListener("click",function(e){
