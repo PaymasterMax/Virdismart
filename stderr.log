@@ -1,0 +1,513 @@
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: //wp-includes/wlwmanifest.xml
+Not Found: //xmlrpc.php
+Not Found: //blog/wp-includes/wlwmanifest.xml
+Not Found: //web/wp-includes/wlwmanifest.xml
+Not Found: //wordpress/wp-includes/wlwmanifest.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /static/accounts/js/login.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /google5f761858ecc891f6.html
+Not Found: /google2db18615f348b326.html
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /google2db18615f348b326.html
+Not Found: /google5f761858ecc891f6.html
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /sitemap.xml
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: //vendor/phpunit/phpunit/phpunit.xsd
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemaps.xml
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+2021-04-15 07:32:56.459570 [UID:2738][28169] Child process with pid: 28423 was killed by signal: 15, core dump: 0
+2021-04-15 07:32:57.936482 [UID:2738][28169] Child process with pid: 31398 was killed by signal: 15, core dump: 0
+2021-04-15 07:33:08.555878 [UID:2738][28169] Child process with pid: 34538 was killed by signal: 15, core dump: 0
+2021-04-15 07:33:09.106316 [UID:2738][28169] Child process with pid: 34744 was killed by signal: 15, core dump: 0
+2021-04-15 07:33:21.733109 [UID:2738][28169] Child process with pid: 36917 was killed by signal: 15, core dump: 0
+2021-04-15 07:33:22.848296 [UID:2738][28169] Child process with pid: 37224 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+2021-04-15 13:14:22.000630 [UID:2738][8004] Child process with pid: 15502 was killed by signal: 15, core dump: 0
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+2021-04-16 13:47:19.172636 [UID:2738][24493] Child process with pid: 24557 was killed by signal: 15, core dump: 0
+Internal Server Error: /android-app/
+Traceback (most recent call last):
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home2/virdisco/WebApp/Home/views.py", line 41, in download_file
+    fl = open(fl_path+filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home2/virdisco/WebApp/MEDIA_ROOT/mobile/app-release.apk'
+Not Found: /favicon.ico
+Internal Server Error: /android-app/
+Traceback (most recent call last):
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home2/virdisco/WebApp/Home/views.py", line 41, in download_file
+    fl = open(fl_path+filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home2/virdisco/WebApp/MEDIA_ROOT/mobile/app-release.apk'
+Internal Server Error: /android-app/
+Traceback (most recent call last):
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home2/virdisco/WebApp/Home/views.py", line 41, in download_file
+    fl = open(fl_path+filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home2/virdisco/WebApp/MEDIA_ROOT/mobile/app-release.apk'
+Not Found: /favicon.ico
+Internal Server Error: /android-app/
+Traceback (most recent call last):
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home2/virdisco/WebApp/Home/views.py", line 41, in download_file
+    fl = open(fl_path+filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home2/virdisco/WebApp/MEDIA_ROOT/mobile/app-release.apk'
+Not Found: /favicon.ico
+Internal Server Error: /android-app/
+Traceback (most recent call last):
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home2/virdisco/WebApp/Home/views.py", line 41, in download_file
+    fl = open(fl_path+filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home2/virdisco/WebApp/MEDIA_ROOT/mobile/app-release.apk'
+Not Found: /favicon.ico
+Internal Server Error: /android-app/
+Traceback (most recent call last):
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home2/virdisco/virtualenv/WebApp/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home2/virdisco/WebApp/Home/views.py", line 41, in download_file
+    fl = open(fl_path+filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home2/virdisco/WebApp/MEDIA_ROOT/mobile/app-release.apk'
+2021-04-16 13:55:49.101496 [UID:2738][37509] Child process with pid: 37528 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+2021-04-16 13:58:16.200387 [UID:2738][26618] Child process with pid: 26632 was killed by signal: 15, core dump: 0
+2021-04-16 14:00:45.702955 [UID:2738][21373] Child process with pid: 21500 was killed by signal: 15, core dump: 0
+2021-04-16 14:25:50.282466 [UID:2738][19115] Child process with pid: 19263 was killed by signal: 15, core dump: 0
+2021-04-16 15:28:35.494467 [UID:2738][40651] Child process with pid: 40682 was killed by signal: 15, core dump: 0
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: //vendor/phpunit/phpunit/phpunit.xsd
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /a9bc224bd710f56d27affffddc764239b58c3faa0/shield.png
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.txt
+Not Found: /sitemap.xml.gz
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+2021-04-28 00:43:11.851654 [UID:2738][3845] Child process with pid: 3855 was killed by signal: 15, core dump: 0
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: //vendor/phpunit/phpunit/phpunit.xsd
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /.env
+Not Found: /.env
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /.env
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /admin/index.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/accounts/js/signup.js
+Not Found: /robots.txt
+Not Found: /robots.txt
+2021-05-10 10:32:34.584038 [UID:2738][19523] Child process with pid: 19919 was killed by signal: 15, core dump: 0
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: //
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /.env
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: //vendor/phpunit/phpunit/phpunit.xsd
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /wp/
+Not Found: /blog/
+Not Found: /wordpress/
+Not Found: /site/
+Not Found: /cms/
+Not Found: /web/
+Not Found: /news/
+Not Found: /home/
+Not Found: /new/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /.env
+Not Found: /wp-content/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-admin
+Not Found: /favicon.ico
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /.env
+Not Found: /vendor/phpunit/phpunit/LICENSE
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /vendor/phpunit/phpunit/LICENSE
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /app-ads.txt
+Not Found: /sitemaps.xml
+Not Found: /atom.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemaps.xml
+Not Found: /wp-login.php
+Not Found: /atom.xml
+Not Found: /robots.txt
+Not Found: /vendor/phpunit/phpunit/LICENSE
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Forbidden (CSRF token missing or incorrect.): /accounts/
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemaps.xml

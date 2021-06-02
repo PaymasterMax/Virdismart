@@ -1,0 +1,152 @@
+a:hover {
+  text-decoration: none;
+}
+form {
+  margin: 0px auto;
+}
+form input:focus {
+  box-shadow: 3px 3px 6px rgba(41, 118, 212,0.5);
+  outline: none;
+}
+form i{
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    display: block;
+    margin: auto;
+}
+.input-field {
+  display: block;
+  min-width: 0px;
+  margin: 40px 0px;
+  position: relative;
+}
+.input-field:first-child{
+  margin-bottom: 40px;
+}
+.submit-btn >button {
+  cursor: pointer;
+  box-shadow: 5px 4px 5px #aaa;
+  background-color: #edf5e1;
+  outline: none;
+  color: #000;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  min-width: 250px;
+  padding: 10px 0px;
+border: 0;
+}
+.submit-btn >button:hover{
+  background-color: #05386b;
+  color: #fff;
+}
+.alternative-login {
+  margin: 0px auto;
+  margin-top: 40px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-wrapper {
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 30px;
+}
+.web-name {
+  text-align: center;
+}
+.errors {
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: red;
+}
+.account {
+  text-align: justify;
+  width: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.account a{
+  margin-left: 5px;
+}
+@media only screen and (max-width:700px) {
+  form input{
+    border-bottom: 1px solid #000;
+    background-color: #9999993b;
+    border-radius: 30px;
+    text-align: center;
+    min-height: 35px;
+    min-width: 250px;
+    margin: 0px auto;
+    display: block;
+    color: #000;
+    padding: 3px;
+    border:none;
+  }
+  .form-wrapper {
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width:701px) {
+  form input{
+    border-bottom: 1px solid #000;
+    background-color: #9999993b;
+    border-radius: 30px;
+    text-align: center;
+    min-height: 35px;
+    min-width: 250px;
+    margin: 0px auto;
+    display: block;
+    color: #000;
+    padding: 3px;
+    border:none;
+  }
+  .form-wrapper {
+    padding-top: 30px;
+  }
+}
+.loaders {
+  background-color: #808080d6;
+  justify-content: center;
+  flex-direction: row;
+  min-width: 100vw;
+  align-items: center;
+  min-height: 100vh;
+  position: fixed;
+  display: none;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.loaders p {
+  border-radius: 30px;
+  background-color: #2976d4;
+  margin-left: 20px;
+  position: relative;
+}
+.loader-1 {
+  animation:pop .6s cubic-bezier(0, 1.04, 0.12, 1.13) infinite;
+}
+@keyframes pop {
+  0% {
+    width: 10px;
+    height: 10px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+  75% {
+    width: 40px;
+    height: 40px;
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+  }
+}

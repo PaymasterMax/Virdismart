@@ -1,0 +1,63 @@
+a:hover {
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+@media only screen and (max-width:900px) {
+  .root {
+    max-width: 90vw;
+    display: block;
+    margin: auto;
+  }
+  .root >div {
+    margin: 0px 10px;
+  }
+  .users-table h5 {
+    text-align: center;
+    margin: auto;
+  }
+  .users-table table{
+      margin: auto;
+  }
+  .users-table th,td{
+    padding: 3px;
+    margin: 3px;
+  }
+  .graph-data {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .graph-data canvas {
+    display: block;
+    margin: auto;
+  }
+}
+@media only screen and (min-width:900px) {
+    .root {
+      align-content: center;
+      display: flex;
+      width: 90vw;
+      margin: auto;
+    }
+    .root >div {
+      flex: 2;
+      margin: 0px 20px;
+    }
+    .users-table h5 {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .users-table table{
+        margin: auto;
+    }
+    .users-table th,td{
+      padding: 6px;
+    }
+}

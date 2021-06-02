@@ -1,0 +1,195 @@
+{% extends 'base.html' %} {% load static %}
+{% block wrapper %}
+<div class="mcursor mouse"></div>
+<div class="mcursor mouse1"></div>
+<div class="page-wrapper">
+          <div class="virdis-preview">
+            <div class="prev-side">
+              <h1>Turn your trash to cash with our smart bin</h1>
+              <p>Drop your recycleables in our smartbin to get points which you can redeem for cash or discounts on selected products</p>
+                <button type="button" name="button" class="stats">View stats</button>
+            </div>
+            <div class="arrow-down scroll-down">
+                &#8595;
+            </div>
+          </div>
+            <div class="group-1">
+              <div class="more">
+                <h1 class="topic-header-alt">Problem</h1>
+                <div class="more-content">
+                    <div class="spinner">
+                        <p>Less than <br>
+                              5% <br>
+                        Recycling rate
+                      </p>
+                    </div>
+                    <div class="description">
+                        <h2 class="topic-header">Problem</h2>
+                        <p>
+                          Over 2,475 tons of waste is generated in
+                          Nairobi daily. However, less than 5% is ecycled. The rest ends up in landfills or illegal dumping sites.
+                        </p>
+                    </div>
+                </div>
+              </div>
+                    <div class="understand">
+                      <div class="process-item">
+                          <img src="{% static 'home/images/waste-truck.png' %}" alt="waste-truck">
+                          <div class="process-info">
+                            <h4>Collection</h4>
+                              <p>
+                                Waste is collected <br>
+                                indiscriminately with <br>
+                                only 5% being <br>
+                                adequately sorted.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="process-item">
+                        <img src="{% static 'home/images/sorting.png' %}" alt="waste-truck">
+                        <div class="process-info">
+                          <h4>Sorting</h4>
+                            <p>
+                              Recyclable materials are often <br>mixed with health-hazardous <br>substances. This makes sorting <br>costly and time consuming.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="process-item">
+                        <img src="{% static 'home/images/recycling.png' %}" alt="waste-truck">
+                        <div class="process-info">
+                          <h4>Recycling</h4>
+                            <p>
+                              Contamination results in <br>recycling being a liability <br>
+                              and less profitable <br>compared to producing <br>new materials.
+                            </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="showcase group-2">
+              <div class="understand-wrapper">
+                <div class="proposition">
+                  <h2 class="topic-header-alt">Value Proposition</h2>
+                  <div class="prop-item">
+                      <img src="{% static 'home/images/bin.png' %}">
+                    </div>
+                  <div class="description">
+                    <h2 class="topic-header">Value Proposition</h2>
+                    <p>
+                        A Smart Recycling Bin that identifies waste disposed of  and rewards users with points that can be redeemed for cash or discount on products.
+                    </p>
+                  </div>
+                </div>
+                <div class="working">
+                  <h1 class="topic-header-alt">How it works</h1>
+                  <h1 class="topic-header">How it works</h1>
+                  <div class="working-img">
+                    <img src="{% static 'home/images/rec.png' %}">
+                  </div>
+                </div>
+            </div>
+                <div class="video">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/nUfPPrUCuLE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                  <div class="user-inter">
+                        <div class="content-wrapper">
+                          <div class="proposition">
+                            <div class="prop-item">
+                                <img src="{% static 'home/images/woman.png' %}" alt="user">
+                            </div>
+                            <div class="description">
+                              <h2 class="topic-header">The Smart Bin App</h2>
+                                <p>
+                                  Use your phone to find the nearest Smart Bin in your area to drop of your trash and earn points.
+                                  Redeem your points for cash or discounts on products.
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="competitive">
+                            <h2 class="topic-header">Competitve Advantage</h2>
+                            <div class="advantage">
+                              <div class="it-adv">
+                                  <img src="{% static 'home/images/FIrstToMarket.png' %}" alt="first in market">
+                                  <p>First to Market <br>using IoT on <br>Trash</p>
+                              </div>
+                              <div class="it-adv">
+                                  <img src="{% static 'home/images/IP.png' %}" alt="IP">
+                                  <p>Patented IP <br>Advantage</p>
+                              </div>
+                                <div class="it-adv">
+                                    <img src="{% static 'home/images/EaseOfUse.png' %}" alt="ease of use">
+                                    <p>Ease of use, <br>simply scan, <br>drop and earn</p>
+                                </div>
+                                <div class="it-adv">
+                                    <img src="{% static 'home/images/community.png' %}" alt="community">
+                                    <p>Community <br>Driven</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      <!-- start here -->
+
+                    <div class="group-3">
+                      <div class="founders">
+                          <h2 class="topic-header">Founders</h2>
+                          <h1 class="topic-header-alt">Founders</h1>
+                        <div class="f-profile">
+                          <div class="f-1">
+                              <img src="{% static 'home/images/eric.png' %}" alt="Paige Maina">
+                              <div class="title">
+                                  <h3>Eric M Mwirichia</h3>
+                                  Co-Founder& CEO
+                              </div>
+                          </div>
+                            <div class="f-1">
+                                <img src="{% static 'home/images/team/lilian.png' %}" alt="Lilian Waita">
+                                <div class="title">
+                                    <h3>Lilian Waita</h3>
+                                    Corporate Relation
+                                </div>
+                            </div>
+							<div class='f-1'>
+									<img src="{% static 'home/images/team/abby.png' %}" alt='Abby Chebet'>
+									<div class='title'>
+											<h3>Abby Chebet</h3>
+											CFO
+									</div>
+							</div>
+                        </div>
+                      </div>
+                      <div class="partners">
+                        <h1 class="topic-header-alt">Partners</h1>
+                          <h2 class="topic-header">Partners</h2>
+                        <div class="partners-wrap">
+                            <div class="item-1">
+                                  <img src="{% static 'home/images/sponsors/ford.png' %}" alt="ford">
+                            </div>
+                            <div class="item-1">
+                                  <img src="{% static 'home/images/sponsors/clinton.png' %}" alt="clinton">
+                            </div>
+                            <div class="item-1">
+                                  <img src="{% static 'home/images/sponsors/enactus.png' %}" alt="enactus">
+                            </div>
+                            <div class="item-1">
+                                  <img src="{% static 'home/images/sponsors/cress.png' %}" alt="cress">
+                            </div>
+                            <div class="item-1">
+                                  <img src="{% static 'home/images/sponsors/mmu.png' %}" alt="mmu">
+                            </div>
+                            <div class="item-1">
+                                  <img src="{% static 'home/images/sponsors/eden.png' %}" alt="eden">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+</div>
+{% endblock %}
+<!-- resources links -->
+{% block css %}
+  <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+{% endblock %}
+{% block js %}
+  <script src="{% static 'home/js/home.js' %}" charset="utf-8"></script>
+{% endblock %}

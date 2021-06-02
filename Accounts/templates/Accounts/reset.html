@@ -1,0 +1,27 @@
+{% extends 'base.html' %}{% load static %}
+{% block wrapper %}
+
+<div class="form-wrapper">
+    <h4 class="web-name">Reset password</h4>
+    <label class="errors"></label>
+    <form class="login" action="/accounts/reset/" method="post" autocomplete="off">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{csrf_token}}" class="token">
+      <div class="input-field">
+        <input type="email" name="email" class="username" placeholder="your email" autocomplete="false">
+      </div>
+      <label class="infor"></label>
+      <div class="input-field submit-btn">
+        <button type="submit" name="submit" class="submit btn">reset</button>
+      </div>
+    </form>
+  </div>
+
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'Accounts/css/reset.css' %}">
+{% endblock %}
+
+{% block js %}
+  <script src="{% static 'Accounts/js/reset.js' %}" charset="utf-8"></script>
+{% endblock %}

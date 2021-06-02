@@ -1,0 +1,120 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="smart,bin,smartbin,recycle,waste,enactus mmu,enactus,disposal,points,earn,virdismart,virdis">
+    <meta name="lang" content="en">
+    <meta charset="utf-8">
+    <title>Virdismart Global</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="icon" href="{% static 'images/logos/icon.png' %}">
+    <div class="loading">
+        <img src="{% static 'images/logos/icon.png' %}" alt="logo">
+    </div>
+  </head>
+  <body>
+    <div class="menu-side">
+      <p class="close-bar">&times;</p>
+        <div class="">
+            <div class="">
+                <img src="{% static 'images/logos/virdis.png' %}" alt="virdis">
+            </div>
+            <div class="url-links">
+              <a href="{% url 'home:home' %}">home &#8594;</a>
+            </div>
+            <div class="url-links">
+                <a href="{% url 'home:team' %}" class="bout-us">team&#8594;</a>
+            </div>
+            <div class="url-links">
+                <a href="#footer" class="contact-us">Contact us &#8594;</a>
+            </div>
+            {% if additional_info.logged_in %}
+                <div class="url-links">
+                  <a href="{% url 'Accounts:logout' %}">logout &#8594;</a>
+                </div>
+              {% else %}
+              <div class="url-links">
+                <a href="{% url 'Accounts:account' %}">login &#8594;</a>
+              </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="wrap-body">
+      <!-- navbar -->
+        <div class="dev-navbar dev-nav">
+              <div class="logo">
+                  <img src="{% static 'images/logos/logo.png' %}" loading="lazy" alt="virdis" onclick="window.location.href='/'">
+              </div>
+              <div class="dev-link">
+                <div class="our-impact">
+                    <a href="{% url 'home:home' %}">home</a>
+                </div>
+                <div class="discover">
+                    <a href="{% url 'home:team' %}">team</a>
+                </div>
+                {% if additional_info.logged_in %}
+                <div class="login">
+                  <a href="{% url 'Accounts:logout' %}">logout</a>
+                </div>
+                  {% else %}
+                  <div class="login">
+                    <a href="{% url 'Accounts:account' %}">login</a>
+                  </div>
+                {% endif %}
+              </div>
+        </div>
+        <div class="navbar2 dev-nav">
+          <div class="trigger-side">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+            <div class="company">
+                <h2>Virdismart</h2>
+            </div>
+        </div>
+        {% block wrapper %}
+        {% endblock %}
+    </div>
+    <div class="footer" id="footer">
+        <hr>
+          <div class="top-footer">
+            <div class="main-footer virdis-social">
+                <h4>Social Platform</h4>
+                <div class="">
+                    <a href="https://www.youtube.com/channel/UCt1nbPnduBIe8KuuNIxjnSA" target="_blank"> <i class="fa fa-youtube"></i> Youtube</a>
+                </div>
+                <div class="">
+                    <a href="https://www.instagram.com/virdismart/"> <i class="fa fa-instagram" target="_blank"></i> Instagram</a>
+                </div>
+                <div class="">
+                    <a href="https://www.linkedin.com/company/20478471/" target="_blank"><i class="fa fa-linkedin"></i>Linkedin</a>
+                </div>
+                <div class="">
+                    <a href="https://twitter.com/virdismart" target="_blank"> <i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
+            <div class="main-footer edison">
+              “The value of an idea lies in the using of it.“ <br>
+                  <b>Thomas Edison (1847 – 1931)</b>
+            </div>
+          </div>
+          <hr class="horizontal">
+      <div class="final">
+        <a href="">www.virdis.co.ke</a>
+        <a href="">info@virdis.co.ke</a>
+        <a href=""> Call us: 0722 517 627</a>
+      </div>
+    </div>
+    <div class="go-top">
+        &#8593;
+    </div>
+  </body>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  {% block css %}
+  {% endblock %}
+  {% block js %}
+  {% endblock %}
+  <script src="{% static 'js/base.js' %}" charset="utf-8"></script>
+</html>

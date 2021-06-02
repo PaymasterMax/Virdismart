@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% load static %}
+{% block wrapper %}
+  <div class="root">
+    <div class="graph-data">
+          <h2>Analitics</h2>
+            <div class="mycanvas">
+                <canvas id="analitics" width="300" height="300"></canvas>
+            </div>
+    </div>
+    <div class="users-table">
+        <h5>Top 10 users by points</h5>
+        <table border="1">
+            <tr>
+                <th>Username</th>
+                <th>Mass collected (g)</th>
+                <th>Total points</th>
+            </tr>
+            {% for singleUser in top %}
+              <tr>
+                <td>{{singleUser.fname}} {{singleUser.lname}}</td>
+                <td>{{singleUser.massThrown}}</td>
+                <td>{{singleUser.points}}</td>
+              </tr>
+            {% endfor %}
+        </table>
+    </div>
+  </div>
+{% endblock %}
+{% block css %}
+  <link rel="stylesheet" href="{% static 'home/css/stats.css' %}">
+{% endblock %}
+{% block js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" integrity="sha512-hZf9Qhp3rlDJBvAKvmiG+goaaKRZA6LKUO35oK6EsM0/kjPK32Yw7URqrq3Q+Nvbbt8Usss+IekL7CRn83dYmw==" crossorigin="anonymous"></script>
+<script src="{% static 'home/js/stats.js' %}" charset="utf-8"></script>
+{% endblock %}
