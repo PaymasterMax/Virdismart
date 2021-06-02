@@ -15,26 +15,13 @@
                 <th>Mass collected (g)</th>
                 <th>Total points</th>
             </tr>
-            <tr>
-              <td>Eric Mwirichia</td>
-              <td>230</td>
-              <td>430</td>
-            </tr>
-            <tr>
-              <td>Duncan Santiago</td>
-              <td>20</td>
-              <td>40</td>
-            </tr>
-            <tr>
-              <td>Jarvis Scort</td>
-              <td>2030</td>
-              <td>1430</td>
-            </tr>
-            <tr>
-              <td>Tom Lee</td>
-              <td>2230</td>
-              <td>4030</td>
-            </tr>
+            {% for singleUser in top %}
+              <tr>
+                <td>{{singleUser.fname}} {{singleUser.lname}}</td>
+                <td>{{singleUser.massThrown}}</td>
+                <td>{{singleUser.points}}</td>
+              </tr>
+            {% endfor %}
         </table>
     </div>
   </div>
